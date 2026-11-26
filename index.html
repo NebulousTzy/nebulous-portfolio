@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nebulous | IT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Nebulous.dev</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#credentials">Certifications & Awards</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <p class="location">📍 Imus, Calabarzon, Philippines</p>
+        <h1>Hi, I'm <span class="highlight">Charles Justin Roxas</span></h1>
+        <p class="subtitle">BSIT Student @ Mapúa Makati | I build <span id="typing-text"></span></p>
+        <div class="hero-buttons">
+            <a href="#credentials" class="btn">Explore My Credentials</a>
+            <a href="https://www.linkedin.com/in/charles-justin-roxas" target="_blank" class="btn btn-outline">LinkedIn Profile</a>
+        </div>
+    </header>
+
+    <!-- About & Skills -->
+    <section id="about" class="reveal">
+        <h2>About Me</h2>
+        <p>
+            I am a first-year Information Technology student at Mapúa University Makati with a strong STEM foundation from De La Salle University - Dasmariñas. Passionate about programming, problem-solving, and logic design, I am actively building my skills in software development and modern tech stacks while exploring future internship and project opportunities.
+        </p>
+        <div class="skills-container">
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Logic & Analytical Thinking</span>
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Computer Systems Servicing</span>
+            <span class="skill-tag">Networking & Servers</span>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="reveal">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Bachelor of Science in Information Technology (BSIT)</h3>
+                <span class="date">August 2026 – 2030 | Mapúa University - Makati</span>
+                <p>Focusing on software development, data structures, logic design, and modern computing stacks.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Senior High School Diploma — STEM</h3>
+                <span class="date">2024 – 2026 | De La Salle University - Dasmariñas</span>
+                <p>Built a strong analytical foundation in Science, Technology, Engineering, and Mathematics.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Certifications & Honors Section -->
+    <section id="credentials" class="reveal">
+        <h2>Certifications & Honors</h2>
+
+        <!-- Interactive Filter Buttons -->
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="award">Honors & Awards</button>
+            <button class="filter-btn" data-filter="software">Software</button>
+            <button class="filter-btn" data-filter="systems">Systems & Networking</button>
+        </div>
+
+        <div class="project-grid">
+            <!-- Honor / Award -->
+            <div class="card highlight-card" data-category="award">
+                <span class="badge">🏆 Honor / Award</span>
+                <h3>Second Runner-Up — Erovouthon Challenge</h3>
+                <p>Recognized for technical problem-solving, analytical logic, and competitive innovation.</p>
+            </div>
+
+            <!-- Software Cert -->
+            <div class="card" data-category="software">
+                <span class="badge">💻 Software</span>
+                <h3>Programming for Everybody (Getting Started with Python)</h3>
+                <p>Core programming fundamentals, control structures, functions, and data handling in Python.</p>
+            </div>
+
+            <!-- Systems & Networking Certs -->
+            <div class="card" data-category="systems">
+                <span class="badge">🖥️ Systems & Networks</span>
+                <h3>Setting Up Computer Servers</h3>
+                <p>Configuration, deployment, and management of server environments and network services.</p>
+            </div>
+
+            <div class="card" data-category="systems">
+                <span class="badge">🖥️ Systems & Networks</span>
+                <h3>Maintaining Computer Systems and Networks</h3>
+                <p>Diagnostics, troubleshooting, and preventative maintenance for hardware and network infrastructure.</p>
+            </div>
+
+            <div class="card" data-category="systems">
+                <span class="badge">🖥️ Systems & Networks</span>
+                <h3>Installing and Configuring Computer Systems</h3>
+                <p>Hardware assembly, OS installation, and system configuration.</p>
+            </div>
+
+            <div class="card" data-category="systems">
+                <span class="badge">🖥️ Systems & Networks</span>
+                <h3>Introduction to Computer Systems Servicing</h3>
+                <p>Foundational standards, safety protocols, and architecture of computer systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <p>Open to project collaborations, tech discussions, and future internship opportunities.</p>
+        <div class="contact-links">
+            <a href="mailto:cjroxas090807@gmail.com" class="btn">Email Me</a>
+            <a href="https://www.linkedin.com/in/charles-justin-roxas" target="_blank" class="btn btn-outline">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
